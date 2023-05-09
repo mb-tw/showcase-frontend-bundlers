@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Example of DIY bundling",
   "author": "HMBond",
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "private": true,
   "type": "module",
   "scripts": {
