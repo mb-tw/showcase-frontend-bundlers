@@ -1,0 +1,21 @@
+html {
+    background-image: url('./assets/tbls.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    font-size: 2em;
+}
+
+button,
+input {
+    font-size: larger;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+code:not(:empty) {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: white;
+}

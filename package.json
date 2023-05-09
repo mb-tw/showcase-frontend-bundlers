@@ -1,0 +1,20 @@
+{
+  "name": "showcase-frontend-bundlers",
+  "version": "0.1.0",
+  "description": "Example of DIY bundling",
+  "author": "HMBond",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node",
+    "build": "./build.sh",
+    "clean": "yes | rm -rf dist/*",
+    "copy-html": "cp src/index.html dist/index.html",
+    "copy-assets": "cp -a src/assets/. dist/assets",
+    "bundle": "node ./lib/bundler.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0"
+  }
+}
