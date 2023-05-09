@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node",
     "build": "./build.sh",
-    "clean": "yes | rm -rf dist/*",
+    "clean": "yes | rm -rf dist && mkdir dist",
     "copy-html": "cp src/index.html dist/index.html",
     "copy-assets": "cp -a src/assets/. dist/assets",
     "bundle": "node ./lib/bundler.js"
