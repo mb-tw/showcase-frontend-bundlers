@@ -1,9 +1,13 @@
 html {
-    background-image: url('./assets/tbls.webp');
+    background-image: url('/tbls.webp');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100%;
     font-size: 2em;
+
+    & h1 {
+        color: black;
+    }
 }
 
 button,
@@ -17,5 +21,5 @@ code:not(:empty) {
     display: block;
     margin: 1rem;
     padding: 1rem;
-    background-color: white;
+    background-color: black;
 }

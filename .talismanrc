@@ -1,3 +1,7 @@
 fileignoreconfig:
+- filename: public/vite.svg
+  checksum: 5fe742fa65b1dea8626174e639646dd7665eb5976ae9caa62855bc9bb33aeeb0
 - filename: yarn.lock
-  checksum: 1880012d35e3cafcff37dc3b22dd7ba74986f5252e5e8b7f06e2efd3fd406132
+  checksum: ad3f58ec4e8e860cea886e2b48dd949324f8f8f959714a9b392bec5d4c938473
+- filename: LICENSE
+  checksum: 00de5fa1aad2fcb968beb5d1bbf09931fc9d3f160f11b945b24f3203ea025917

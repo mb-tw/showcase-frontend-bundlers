@@ -1,20 +1,17 @@
 {
-  "name": "showcase-frontend-bundlers",
-  "version": "0.1.0",
-  "description": "Example of DIY bundling",
-  "author": "HMBond",
-  "license": "GPL-3.0-or-later",
+  "name": "vite-project",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "node",
-    "build": "./build.sh",
-    "clean": "yes | rm -rf dist && mkdir dist",
-    "copy-html": "cp src/index.html dist/index.html",
-    "copy-assets": "cp -a src/assets/. dist/assets",
-    "bundle": "node ./lib/bundler.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint"
   },
   "devDependencies": {
-    "eslint": "^8.40.0"
+    "eslint": "^8.40.0",
+    "vite": "^4.3.2",
+    "vite-plugin-eslint": "^1.8.1"
   }
 }
